@@ -129,9 +129,14 @@ fieldset#timeframe {
   }
 }
 
+fieldset label {
+  color: $color-scheme7;
+}
+
 .checkbox .input-label {
   line-height: 30px;
   margin: 0;
+  color: $color-scheme7;
 }
 
 textarea#description {
