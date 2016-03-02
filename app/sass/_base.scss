@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0;
+}
+
+input[type="checkbox"] + label:before {
+  border: 1px solid #ffffff;
+  content: "\00a0";
+  display: inline-block;
+  margin: 0 .25em 0 0;
+  background-image: url("../images/toggle_off.png");
+  width: 60px;
+  height:30px;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-image: url("../images/toggle_on.png");
+}
+
+input[type="radio"] + label:before {
+  border: 1px solid #ffffff;
+  content: "\00a0";
+  display: inline-block;
+  margin: 0 .25em 0 0;
+  background-image: url("../images/radio_off.png");
+  width: 18px;
+  height: 19px;
+}
+
+input[type="radio"]:checked + label:before {
+  background-image: url("../images/radio_on.png");
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
