@@ -1,4 +1,4 @@
-# Sample work for Helpful Hum
+# Sample work for Helpful Human
 
 This repo holds the unbuilt version of the code.  To see it all in action, click here:
 
