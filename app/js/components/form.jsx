@@ -50,7 +50,7 @@ module.exports = React.createClass({
 
   saveAndContinue: function(e) {
     e.preventDefault();
-    console.log('poop butt');
+    console.log('all done');
   },
 
   render: function() {
